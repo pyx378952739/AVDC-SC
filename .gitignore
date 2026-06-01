@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# 配置文件（包含个人信息）
+config.ini
+
+# 数据库
+actor_database.db
+*.db
+
+# 日志
+Log/*.txt
+Log/*.log
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+
+# 测试文件
+test_*.py
+verify_*.py
+cleanup_now.py
+
+# 媒体文件（不应提交）
+*.mp4
+*.avi
+*.mkv
+*.jpg
+*.png
+
+# 其他
+__pycache__
+*.pyc
+nohup.out
+
+# 临时文档（开发用，不上传）
+README_KIMI.md
+CHANGELOG_KIMI.md
+ACTOR_ID_DESIGN.md
+CONTRIBUTING.md
+GITHUB_UPLOAD.md
+update_check.json
+AVDC启动.command
